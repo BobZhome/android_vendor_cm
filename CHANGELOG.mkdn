@@ -17,6 +17,7 @@ Maintainers (CyanogenMod 9):
 * HP Touchpad: dalingrin, green--, jcsullins
 * LG Optimus LTE / AT&T Nitro HD: arcee
 * LG Optimus Sol / LG myTouch: Kali-, arcee
+* LG Optimus V & S: IHO Team
 * Motorola Xoom (stingray): TDR, Steady Hawkin, Bazar6 (Team Rogue)
 * Motorola Xoom (wingray): TDR, Steady Hawkin, Bazar6 (Team Rogue)
 * Samsung Galaxy Note (GT-N7000): Entropy512, xplodwild

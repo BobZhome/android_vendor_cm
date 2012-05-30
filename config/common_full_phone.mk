@@ -15,14 +15,14 @@ include vendor/cm/config/cm_audio.mk
 
 # Default ringtone
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.config.ringtone=CyanTone.ogg \
-    ro.config.notification_sound=CyanMessage.ogg \
-    ro.config.alarm_alert=CyanAlarm.ogg
+    ro.config.ringtone=somebodys.ogg \
+    ro.config.notification_sound=Heaven.ogg \
+    ro.config.alarm_alert=Alarm_Beep_03.ogg
 
 PRODUCT_PACKAGES += \
   Mms
 
 ifeq ($(TARGET_BOOTANIMATION_NAME),)
-    PRODUCT_COPY_FILES += \
+PRODUCT_COPY_FILES += \
         vendor/cm/prebuilt/common/bootanimation/vertical-480x800.zip:system/media/bootanimation.zip
 endif
