@@ -94,7 +94,7 @@ PRODUCT_PACKAGES += \
     VoiceDialer \
     SoundRecorder \
     LiveWallpapersPicker \
-    PhaseBeam
+    Galaxy4
 
 # Custom CM packages
 PRODUCT_PACKAGES += \
