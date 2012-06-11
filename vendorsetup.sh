@@ -1,5 +1,2 @@
-add_lunch_combo cm_LS670-userdebug
 add_lunch_combo cm_LW690-userdebug
-add_lunch_combo cm_MS690-userdebug
-add_lunch_combo cm_VM670-userdebug
-add_lunch_combo cm_VS660-userdebug
+
