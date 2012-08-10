@@ -58,7 +58,8 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_COPY_FILES +=  \
     vendor/cm/proprietary/Term.apk:system/app/Term.apk \
-    vendor/cm/proprietary/lib/armeabi/libjackpal-androidterm4.so:system/lib/libjackpal-androidterm4.so
+    vendor/cm/proprietary/lib/armeabi/libjackpal-androidterm4.so:system/lib/libjackpal-androidterm4.so \
+	vendor/cm/prebuilt/common/apps/Superuser.apk:system/app/Superuser.apk
 
 # Bring in camera effects
 PRODUCT_COPY_FILES +=  \
@@ -85,8 +86,6 @@ PRODUCT_PACKAGES += \
     Camera \
     LatinIME \
     SpareParts \
-    Superuser \
-    Superuser.apk \
     su
 
 # Optional CM packages
