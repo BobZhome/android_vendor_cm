@@ -152,7 +152,13 @@ PRODUCT_PACKAGES += \
     openvpn \
     e2fsck \
     mke2fs \
-    tune2fs
+    tune2fs \
+    bash \
+    vim \
+    nano \
+    htop \
+    powertop \
+    lsof
 
 # Openssh
 PRODUCT_PACKAGES += \
