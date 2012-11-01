@@ -146,7 +146,8 @@ PRODUCT_PACKAGES += \
     DSPManager \
     libcyanogen-dsp \
     audio_effects.conf \
-    Apollo
+    Apollo \
+    CMFileManager
 
 # Extra tools in CM
 PRODUCT_PACKAGES += \
