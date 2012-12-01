@@ -133,7 +133,6 @@ PRODUCT_PACKAGES += \
 
 # Optional CM packages
 PRODUCT_PACKAGES += \
-    VideoEditor \
     VoiceDialer \
     SoundRecorder \
     Basic
@@ -144,9 +143,6 @@ PRODUCT_PACKAGES += \
     DSPManager \
     libcyanogen-dsp \
     audio_effects.conf \
-    CMWallpapers \
-    Apollo \
-    CMUpdater \
     CMFileManager
 
 # Extra tools in CM
@@ -203,7 +199,7 @@ ifdef CM_BUILDTYPE
     endif
 else
     # If CM_BUILDTYPE is not defined, set to UNOFFICIAL
-    CM_BUILDTYPE := UNOFFICIAL
+    CM_BUILDTYPE := BobZhome
     CM_EXTRAVERSION :=
 endif
 
@@ -213,8 +209,7 @@ else
     ifeq ($(PRODUCT_VERSION_MINOR),0)
         CM_VERSION := $(PRODUCT_VERSION_MAJOR)-$(shell date -u +%Y%m%d)-$(CM_BUILDTYPE)-$(CM_BUILD)$(CM_EXTRAVERSION)
     else
-        CM_VERSION := $(PRODUCT_VERSION_MAJOR).$(PRODUCT_VERSION_MINOR)-$(shell date -u +%Y%m%d)-$(CM_BUILDTYPE)-$(CM_BUILD)$(CM_EXTRAVERSION)
-    endif
+        CM_VERSION := $(PRODUCT_VERSION_MAJOR).$(PRODUCT_VERSION_MINOR).$(PRODUCT_VERSION_MAINTENANCE).$(CM_BUILD).$(CM_BUILDTYPE).$(shell date -u +%m%d%Y)
 endif
 
 PRODUCT_PROPERTY_OVERRIDES += \
