@@ -16,6 +16,7 @@ Maintainers (CyanogenMod 10):
 * __HTC One XL:__ h8rift, intervigil
 * __LG Optimus LTE (P930) / LG Nitro HD {P935):__ arcee
 * __LG Optimus LTE (SK Telecom) (SU640):__ arcee
+* __LG Optimus V (VM670):__ BobZhome
 * __Motorola Xoom (WiFi):__ bazar, SteadyHawkin, TDR (Team Rogue)
 * __Motorola Xoom 3G (UMTS):__ bazar, SteadyHawkin, TDR (Team Rogue)
 * __Motorola Xoom 4G LTE (Verizon):__ bazar, SteadyHawkin, TDR (Team Rogue)
