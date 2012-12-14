@@ -211,6 +211,7 @@ else
     else
         CM_VERSION := $(PRODUCT_VERSION_MAJOR).$(PRODUCT_VERSION_MINOR).$(PRODUCT_VERSION_MAINTENANCE).$(CM_BUILD).$(CM_BUILDTYPE).$(shell date -u +%m%d%Y)
 endif
+endif
 
 PRODUCT_PROPERTY_OVERRIDES += \
   ro.cm.version=$(CM_VERSION) \
