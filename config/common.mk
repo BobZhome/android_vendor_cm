@@ -165,7 +165,8 @@ PRODUCT_PACKAGES += \
     audio_effects.conf \
     CMWallpapers \
     Apollo \
-    CMFileManager
+    CMFileManager \
+    LockClock
 
 # Extra tools in CM
 PRODUCT_PACKAGES += \
