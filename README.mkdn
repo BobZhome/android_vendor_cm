@@ -15,4 +15,3 @@ Then to sync up:
 
     repo sync
 
-
