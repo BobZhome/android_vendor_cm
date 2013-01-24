@@ -95,10 +95,17 @@ PRODUCT_COPY_FILES += \
     vendor/cm/prebuilt/common/bin/compcache:system/bin/compcache \
     vendor/cm/prebuilt/common/bin/handle_compcache:system/bin/handle_compcache
 
-# Terminal Emulator
+# Nam configuration script
+PRODUCT_COPY_FILES += \
+    vendor/cm/prebuilt/common/bin/modelid_cfg.sh:system/bin/modelid_cfg.sh
+
 PRODUCT_COPY_FILES +=  \
     vendor/cm/proprietary/Term.apk:system/app/Term.apk \
-    vendor/cm/proprietary/lib/armeabi/libjackpal-androidterm4.so:system/lib/libjackpal-androidterm4.so
+    vendor/cm/proprietary/lib/armeabi/libjackpal-androidterm4.so:system/lib/libjackpal-androidterm4.so \
+    vendor/cm/prebuilt/common/apk/Superuser.apk:system/app/Superuser.apk \
+    vendor/cm/prebuilt/common/xbin/su:system/xbin/su \
+    vendor/cm/prebuilt/common/apk/GooManager.apk:system/app/GooManager.apk
+
 
 # Bring in camera effects
 PRODUCT_COPY_FILES +=  \
@@ -118,8 +125,8 @@ PRODUCT_COPY_FILES += \
     vendor/cm/prebuilt/common/etc/mkshrc:system/etc/mkshrc
     
 PRODUCT_COPY_FILES += \
-    vendor/cm/prebuilt/$(TARGET_PRODUCT).conf:system/etc/beerbong/properties.conf
-
+    vendor/cm/prebuilt/$(TARGET_PRODUCT).conf:system/etc/beerbong/properties.conf \
+    
 # T-Mobile theme engine
 include vendor/cm/config/themes_common.mk
 
@@ -128,8 +135,9 @@ PRODUCT_PACKAGES += \
     Camera \
     Development \
     LatinIME \
-    Superuser \
-    su
+    SpareParts \
+    
+    
 
 # Optional CM packages
 PRODUCT_PACKAGES += \
