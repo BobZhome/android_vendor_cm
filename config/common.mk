@@ -95,17 +95,12 @@ PRODUCT_COPY_FILES += \
     vendor/cm/prebuilt/common/bin/compcache:system/bin/compcache \
     vendor/cm/prebuilt/common/bin/handle_compcache:system/bin/handle_compcache
 
-# Nam configuration script
-PRODUCT_COPY_FILES += \
-    vendor/cm/prebuilt/common/bin/modelid_cfg.sh:system/bin/modelid_cfg.sh
-
 PRODUCT_COPY_FILES +=  \
     vendor/cm/proprietary/Term.apk:system/app/Term.apk \
     vendor/cm/proprietary/lib/armeabi/libjackpal-androidterm4.so:system/lib/libjackpal-androidterm4.so \
     vendor/cm/prebuilt/common/apk/Superuser.apk:system/app/Superuser.apk \
     vendor/cm/prebuilt/common/xbin/su:system/xbin/su \
     vendor/cm/prebuilt/common/apk/GooManager.apk:system/app/GooManager.apk
-
 
 # Bring in camera effects
 PRODUCT_COPY_FILES +=  \
@@ -134,10 +129,7 @@ include vendor/cm/config/themes_common.mk
 PRODUCT_PACKAGES += \
     Camera \
     Development \
-    LatinIME \
-    SpareParts 
-    
-    
+    LatinIME 
 
 # Optional CM packages
 PRODUCT_PACKAGES += \
@@ -206,8 +198,8 @@ ifdef CM_RELEASE
     CM_BUILDTYPE := RELEASE
 endif
 
-JELLY_BEER_VERSION := 3.55
-JELLY_BEER_VERSION_NUMBER := 355
+JELLY_BEER_VERSION := 3.56
+JELLY_BEER_VERSION_NUMBER := 356
 JELLY_BEER_BUILDDATE := $(shell date -u +%Y%m%d)
 JELLY_BEER_BUILDDATETIME := $(shell date -u +%Y%m%d-%H%M)
 
