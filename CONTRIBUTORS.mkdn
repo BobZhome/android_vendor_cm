@@ -16,7 +16,8 @@ Maintainers (CyanogenMod 10):
 * __HTC One XL:__ h8rift, intervigil
 * __LG Optimus LTE (P930) / LG Nitro HD {P935):__ arcee
 * __LG Optimus LTE (SK Telecom) (SU640):__ arcee
-* __LG Optimus V (VM670):__ BobZhome
+* __LG Optimus S (LS670):__ TheKraven, androidarmv6
+* __LG Optimus V (VM670):__ BobZhome, androidarmv6
 * __Motorola Xoom (WiFi):__ bazar, SteadyHawkin, TDR (Team Rogue)
 * __Motorola Xoom 3G (UMTS):__ bazar, SteadyHawkin, TDR (Team Rogue)
 * __Motorola Xoom 4G LTE (Verizon):__ bazar, SteadyHawkin, TDR (Team Rogue)
@@ -25,8 +26,6 @@ Maintainers (CyanogenMod 10):
 * __Samsung Fascinate / Mesmerize (SCH-I500):__ jt1134, sbrissen
 * __Samsung Galaxy Note (GT-N7000):__ Entropy512, Espenfjo
 * __Samsung Galaxy Note II (GT-N7100):__ nebkat
-* __Samsung Galaxy Note II LTE (GT-N7105 / SGH-I317 / SGH-T889):__ codeworkx, madmack
-* __Samsung Galaxy Note II LTE (SCH-I605 / SPH-L900):__ sbrissen
 * __Samsung Galaxy Note 10.1 (GT-N80XX):__ Entropy512, Espenfjo
 * __Samsung Galaxy S Blaze 4G (SGH-T769):__ UberPinguin
 * __Samsung Galaxy S (GT-I9000):__ pawitp
