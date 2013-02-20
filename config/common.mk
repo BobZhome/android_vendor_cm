@@ -205,8 +205,8 @@ ifdef CM_RELEASE
     CM_BUILDTYPE := RELEASE
 endif
 
-JELLY_BEER_VERSION := 3.58
-JELLY_BEER_VERSION_NUMBER := 358
+JELLY_BEER_VERSION := 4.0.0-$(shell date +%0d%^b%Y-%H%M%S)
+JELLY_BEER_VERSION_NUMBER := $(shell date +%s)
 JELLY_BEER_BUILDDATE := $(shell date -u +%Y%m%d)
 JELLY_BEER_BUILDDATETIME := $(shell date -u +%Y%m%d-%H%M)
 
