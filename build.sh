@@ -21,7 +21,10 @@ DEVICE="$1"
 SYNC="$2"
 
 # get current version
-VERSION=$(cat $DIR/vendor/cm/config/common.mk | grep 'JELLY_BEER_VERSION := *' | sed  's/JELLY_BEER_VERSION := //g')
+VERSION_MAJOR=$(cat $DIR/vendor/cm/config/common.mk | grep 'JELLY_BEER_VERSION_MAJOR := *' | sed  's/JELLY_BEER_VERSION_MAJOR := //g')
+VERSION_MINOR=$(cat $DIR/vendor/cm/config/common.mk | grep 'JELLY_BEER_VERSION_MINOR := *' | sed  's/JELLY_BEER_VERSION_MINOR := //g')
+VERSION_MAINTENANCE=$(cat $DIR/vendor/cm/config/common.mk | grep 'JELLY_BEER_VERSION_MAINTENANCE := *' | sed  's/JELLY_BEER_VERSION_MAINTENANCE := //g')
+VERSION=$VERSION_MAJOR.$VERSION_MINOR.$VERSION_MAINTENANCE
 
 # get time of startup
 res1=$(date +%s.%N)
