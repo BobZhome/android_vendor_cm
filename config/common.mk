@@ -147,7 +147,7 @@ PRODUCT_PACKAGES += \
 
 # Custom CM packages
 PRODUCT_PACKAGES += \
-    Trebuchet \
+    Launcher2 \
     DSPManager \
     libcyanogen-dsp \
     audio_effects.conf \
