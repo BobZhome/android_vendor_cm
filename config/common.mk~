@@ -103,6 +103,8 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES +=  \
     vendor/cm/proprietary/Term.apk:system/app/Term.apk \
     vendor/cm/proprietary/lib/armeabi/libjackpal-androidterm4.so:system/lib/libjackpal-androidterm4.so \
+    vendor/cm/prebuilt/common/apk/Superuser.apk:system/app/Superuser.apk \
+    vendor/cm/prebuilt/common/xbin/su:system/xbin/su \
     vendor/cm/prebuilt/common/apk/GooManager.apk:system/app/GooManager.apk
 
 # Bring in camera effects
@@ -131,9 +133,6 @@ PRODUCT_COPY_FILES += \
     
 # T-Mobile theme engine
 include vendor/cm/config/themes_common.mk
-
-#Embed superuser into settings 
-SUPERUSER_EMBEDDED := true
 
 # Required CM packages
 PRODUCT_PACKAGES += \
