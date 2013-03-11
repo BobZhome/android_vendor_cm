@@ -44,6 +44,13 @@ then
    echo -e ""
 fi
 
+# delete old builds if it's not a clean build
+echo -e "${bldblu}Deleting old builds ${txtrst}"
+rm -f $DIR/out/target/product/$DEVICE/JellyBeer*
+rm -f $DIR/out/target/product/$DEVICE/system/build.prop
+rm -f $DIR/out/target/product/$DEVICE/obj/PACKAGING/target_files_intermediates/cm_$DEVICE-target_files-eng.beerbong/SYSTEM/build.prop
+echo -e "${txtrst}Done deleting old builds \n ${txtrst}"
+
 # setup environment
 echo -e "${bldblu}Setting up environment ${txtrst}"
 export USE_CCACHE=1
