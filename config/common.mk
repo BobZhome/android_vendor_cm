@@ -158,7 +158,8 @@ PRODUCT_PACKAGES += \
     CMWallpapers \
     Apollo \
     CMFileManager \
-    LockClock
+    LockClock \
+    PerformanceControl \
 
 # Extra tools in CM
 PRODUCT_PACKAGES += \
