@@ -160,6 +160,8 @@ PRODUCT_PACKAGES += \
     CMFileManager \
     LockClock \
     PerformanceControl \
+    JellyBeerWallpapers \
+    ZipInstaller
 
 # Extra tools in CM
 PRODUCT_PACKAGES += \
@@ -187,10 +189,6 @@ PRODUCT_PACKAGES += \
 # rsync
 PRODUCT_PACKAGES += \
     rsync
-    
-PRODUCT_PACKAGES += \
-    JellyBeerWallpapers \
-    ZipInstaller
 
 PRODUCT_PACKAGE_OVERLAYS += vendor/cm/overlay/dictionaries
 PRODUCT_PACKAGE_OVERLAYS += vendor/cm/overlay/common
