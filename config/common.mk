@@ -161,7 +161,8 @@ PRODUCT_PACKAGES += \
     LockClock \
     PerformanceControl \
     JellyBeerWallpapers \
-    ZipInstaller
+    ZipInstaller \
+    GooUpdater
 
 # Extra tools in CM
 PRODUCT_PACKAGES += \
