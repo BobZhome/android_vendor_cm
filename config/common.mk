@@ -162,6 +162,9 @@ PRODUCT_PACKAGES += \
     ZipInstaller \
     GooUpdater
 
+PRODUCT_PACKAGES += \
+    CellBroadcastReceiver
+
 # Extra tools in CM
 PRODUCT_PACKAGES += \
     openvpn \
