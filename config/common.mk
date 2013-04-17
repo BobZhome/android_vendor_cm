@@ -104,7 +104,6 @@ PRODUCT_COPY_FILES += \
     vendor/cm/prebuilt/common/bin/handle_compcache:system/bin/handle_compcache
 
 PRODUCT_COPY_FILES +=  \
-    vendor/cm/proprietary/Term.apk:system/app/Term.apk \
     vendor/cm/proprietary/lib/armeabi/libjackpal-androidterm4.so:system/lib/libjackpal-androidterm4.so
 
 # Bring in camera effects
@@ -153,7 +152,6 @@ PRODUCT_PACKAGES += \
     DSPManager \
     libcyanogen-dsp \
     audio_effects.conf \
-    CMWallpapers \
     Apollo \
     CMFileManager \
     LockClock \
