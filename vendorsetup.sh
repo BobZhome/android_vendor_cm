@@ -1,4 +1,3 @@
-for combo in $(wget -o /dev/null -O - https://raw.github.com/CyanogenMod/hudson/master/cm-build-targets | grep cm-10.1 | awk {'print $1'})
-do
+for combo in `cat vendor/cm/build-targets.txt | grep -v ^# | grep -v ^$`; do
     add_lunch_combo $combo
 done

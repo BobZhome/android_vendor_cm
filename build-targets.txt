@@ -1,0 +1,8 @@
+# JellyBeer build target list
+
+cm_grouper-userdebug
+cm_i9300-userdebug
+cm_maguro-userdebug
+cm_mako-userdebug
+cm_n7000-userdebug
+cm_n7100-userdebug
