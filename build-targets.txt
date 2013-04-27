@@ -1,5 +1,6 @@
 # JellyBeer build target list
 
+cm_ariesve-userdebug
 cm_grouper-userdebug
 cm_i9300-userdebug
 cm_maguro-userdebug
