@@ -155,7 +155,7 @@ PRODUCT_PACKAGES += \
     PerformanceControl \
     JellyBeerWallpapers \
     ZipInstaller \
-    GooUpdater
+    OTAPlatform
 
 PRODUCT_PACKAGES += \
     CellBroadcastReceiver
