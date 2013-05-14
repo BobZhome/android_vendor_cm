@@ -20,7 +20,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.config.alarm_alert=CyanAlarm.ogg
 
 PRODUCT_PACKAGES += \
-  Mms
+  Mms \
   PHOENIXWallpapers
 
 # BT config
