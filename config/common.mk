@@ -1,8 +1,8 @@
-PRODUCT_BRAND ?= cyanogenmod
+PRODUCT_BRAND ?= cyanospacemod
 
 ifneq ($(TARGET_BOOTANIMATION_NAME),)
     PRODUCT_COPY_FILES += \
-        vendor/cm/prebuilt/common/bootanimation/$(TARGET_BOOTANIMATION_NAME).zip:system/media/bootanimation.zip
+        vendor/cm/spacecaker/480x854.zip:system/media/bootanimation.zip
 endif
 
 ifdef CM_NIGHTLY
@@ -121,8 +121,8 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGE_OVERLAYS += vendor/cm/overlay/dictionaries
 PRODUCT_PACKAGE_OVERLAYS += vendor/cm/overlay/common
 
-PRODUCT_VERSION_MAJOR = 9
-PRODUCT_VERSION_MINOR = 1
+PRODUCT_VERSION_MAJOR = CyanoSpaceMod 9
+PRODUCT_VERSION_MINOR = CSM
 PRODUCT_VERSION_MAINTENANCE = 0
 
 # Set CM_BUILDTYPE
@@ -145,8 +145,8 @@ ifdef CM_BUILDTYPE
     endif
 else
     # If CM_BUILDTYPE is not defined, set to UNOFFICIAL
-    CM_BUILDTYPE := UNOFFICIAL
-    CM_EXTRAVERSION :=
+    CM_BUILDTYPE := CyanoSpaceMod
+    CM_EXTRAVERSION := OFFICIAL
 endif
 
 ifdef CM_RELEASE
@@ -156,5 +156,6 @@ else
 endif
 
 PRODUCT_PROPERTY_OVERRIDES += \
+  ro.space.version=$(CM_VERSION) \
   ro.cm.version=$(CM_VERSION) \
   ro.modversion=$(CM_VERSION)

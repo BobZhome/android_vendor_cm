@@ -4,9 +4,13 @@
 #
 L="log -p i -t cm"
 
-$L "Welcome to Android `getprop ro.build.version.release` / CyanogenMod-`getprop ro.cm.version`";
-$L "                                                _ ";
-$L " __ __ _ ___  _ _  __  ___  __ _ _  _  _  __  __))";
-$L "((_ \\(/'((_( ((\\( ((_)((_( (('((\\( ((\`1( ((_)((_( ";
-$L "     ))                 _))";
+$L "Welcome to Android `getprop ro.build.version.release` / CYANOSPACEMOD-`getprop ro.space.version`";
+$L "================================================";
+$L "                  CYANOSPACEMOD                 ";
+$L "================================================";
+$L "                   SPACECAKER                   ";
+$L "================================================";
+$L "       PLEASE, IF YOU LIKE MY WORK CONSIDER A   ";
+$L "                T H A N K  Y O U                ";
+$L "================================================";
 $L " ";
