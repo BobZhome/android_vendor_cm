@@ -20,9 +20,15 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.config.alarm_alert=CyanAlarm.ogg
 
 PRODUCT_PACKAGES += \
-  Mms
+  Mms \
+  PHOENIXWallpapers
+
+# BT config
+PRODUCT_COPY_FILES += \
+    system/bluetooth/data/main.conf:system/etc/bluetooth/main.conf
+
 
 ifeq ($(TARGET_BOOTANIMATION_NAME),)
     PRODUCT_COPY_FILES += \
-        vendor/cm/prebuilt/common/bootanimation/vertical-480x800.zip:system/media/bootanimation.zip
+        vendor/cm/spacecaker/480x854.zip:system/media/bootanimation.zip
 endif
