@@ -8,3 +8,5 @@ cm_mako-userdebug
 cm_n7000-userdebug
 cm_n7100-userdebug
 cm_find5-userdebug
+cm_t0lte-userdebug
+cm_tilapia-userdebug
